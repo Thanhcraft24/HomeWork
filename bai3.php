@@ -32,7 +32,7 @@
             $y = $_POST["text2"];
             for ($i = 1; $i <= 10;$i++) {
                 echo"<tr>";
-            for ($j = 2; $j <= $y; $j++) {
+            for ($j = $_POST["text1"]; $j <= $y; $j++) {
                 $n=$j;
                 echo "
                 <td>$n</td>
