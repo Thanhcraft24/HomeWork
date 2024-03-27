@@ -39,12 +39,23 @@
             <div class='Center'>
                 <div class='yellow'>Giá USD 24,090,00 - Giá EUR 25,089,27 - Giá GBP 28,963,54</div>
                 <img src="./Images/img-homebank-new/tichluy.jpg" alt="" class='img'>
+                <div class='root'>
+                    <div class='fileUpload'>
+                        <div class='left'>Chọn file cần gửi:</div>
+                        <div class='right'>
+                            <h3 class='title'>Mõ Phỏng Upload File</h3>
+                            <div class='body'><input type="file" value='Choose File'>
+                            </div>
+                            <div class='bottom'><button type='submit'>Gửi</button><input type='reset' value='Nhập Lại'></div>
+                        </div>
+                    </div>           
+                </div>
             </div>
             <div class='SideRight'>
                 <img src="./Images/img-homebank-new/phat_hanh_ATM.jpg" alt="">
                 <img src="./Images/img-homebank-new/ATM.jpg" alt="">
                 <img src="./Images/img-homebank-new/cophieu.jpg" alt="">
-                <img src="./Images/img-homebank-new/dola.jpg" alt="">
+                <img src="./Images/img-homebank-new/dola.jpg" a alt="">
             </div>
         </div>
         <div class='footer'>
