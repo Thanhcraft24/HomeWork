@@ -60,13 +60,13 @@
             <?php 
                 echo "<table>
                     <tr>
-                        <td colspan='4'>Danh sách sinh viên</td>
+                        <td colspan='4' class='heading'>Danh sách sinh viên</td>
                     </tr>
                     <tr>
-                        <td>STT</td>
-                        <td>Mã sinh viên</td>
-                        <td>Tên sinh viên</td>
-                        <td>Phái</td>
+                        <td class='td1'>STT</td>
+                        <td class='td2'>Mã sinh viên</td>
+                        <td class='td34'>Tên sinh viên</td>
+                        <td class='td5'>Phái</td>
                     </tr>
                 </table>";
                 $STT=1;
@@ -74,10 +74,10 @@
                     
                     echo "<table>
                         <tr>
-                            <td>".$STT."</td>
-                            <td>".$row[0]."</td>
-                            <td>".$row[1]." ".$row[2]."</td>
-                            <td>";
+                            <td class='td1'>".$STT."</td>
+                            <td class='td2'>".$row[0]."</td>
+                            <td class='td34'>".$row[1]." ".$row[2]."</td>
+                            <td class='td5'>";
                                 if ($row[3]==1) {
                                     echo "Nam";
                                 } else {
@@ -90,7 +90,7 @@
                 }
                 echo "<table>
                     <tr>
-                        <td colspan='4'>Tổng số sinh viên: ".mysqli_num_rows($kq)."</td>
+                        <td colspan='4' class='footer'>Tổng số sinh viên: ".mysqli_num_rows($kq)."</td>
                     </tr>
                 </table>";
                 mysqli_close($connect);
